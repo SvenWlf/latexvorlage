@@ -1,0 +1,113 @@
+\chapter{Durchführung}
+%Beispiele
+\section{Caption Tests}
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics{img/advantest-logo.png}
+    \caption{Here is a really dragged out capiton. I mean it is really streched thin. For how much longer could this caption go on. I'll hazard a guess and say not much longer.}
+    \label{fig1}
+\end{figure}
+
+\captionsetup[figure]{format=hang, justification=raggedright, labelsep=colon, labelfont=normal}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics{img/advantest-logo.png}
+    \caption{Here is a really dragged out capiton. I mean it is really streched thin. For how much longer could this caption go on. I'll hazard a guess and say not much longer.}
+    \label{fig2}
+\end{figure}
+
+\captionsetup[figure]{justification=justified}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics{img/advantest-logo.png}
+    \caption{Here is a really dragged out capiton. I mean it is really streched thin. For how much longer could this caption go on. I'll hazard a guess and say not much longer.}
+    \label{fig3}
+\end{figure}
+
+\captionsetup[figure]{justification=centering}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics{img/advantest-logo.png}
+    \caption{Here is a really dragged out capiton. I mean it is really streched thin. For how much longer could this caption go on. I'll hazard a guess and say not much longer.}
+    \label{fig4}
+\end{figure}
+
+\captionsetup[figure]{justification=centerlast, format=plain}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics{img/advantest-logo.png}
+    \caption{Here is a really dragged out capiton. I mean it is really streched thin. For how much longer could this caption go on. I'll hazard a guess and say not much longer.}
+    \label{fig5}
+\end{figure}
+
+\captionsetup[figure]{justification=justified, format=plain}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics{img/advantest-logo.png}
+    \caption{Here is a really dragged out capiton. I mean it is really streched thin. For how much longer could this caption go on. I'll hazard a guess and say not much longer.}
+    \label{fig6}
+\end{figure}
+
+\captionsetup[figure]{justification=justified, format=plain, labelsep=quad}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics{img/advantest-logo.png}
+    \caption{Here is a really dragged out capiton. I mean it is really streched thin. For how much longer could this caption go on. I'll hazard a guess and say not much longer.}
+    \label{fig7}
+\end{figure}
+
+\captionsetup[figure]{format=hang, justification=justified, format=plain, labelsep=quad, labelfont = bf}
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics{img/advantest-logo.png}
+    \caption{Here is a really dragged out capiton. I mean it is really streched thin. For how much longer could this caption go on. I'll hazard a guess and say not much longer.}
+    \label{fig8}
+\end{figure}
+
+\cleardoublepage
+
+\begin{figure}[htbp!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/dhbwlogo.png}
+    \caption{Short caption}
+    \label{fig9}
+\end{figure}
+
+Here a table
+
+\begin{table}[!htbp]
+    \centering
+    \begin{tabular}{@{}llll@{}}
+    \toprule
+    \multicolumn{2}{c}{elektrische Größe} & \multicolumn{2}{c}{thermische Größe} \\ \cmidrule(r){1-2} \cmidrule(l){3-4} 
+    Größe & Einheit & Größe & Einheit \\ \midrule
+    Potenzial $\varphi$ & $\unit{\V}$ & Temperatur $T$ & \unit{\K}\\
+    Strom $I$ & \unit{\A} & Wärmestrom $\dot Q$ & \unit{\W} \\
+    Widerstand $R$ & $\unit{\ohm} = \unit{\V\per\A}$ & thermischer Widerstand $R_{th}$ & \unit{\K\per\W} \\ 
+    Ladung $Q$ & \unit{\C} & Wärmemenge $Q$ & \unit{\J} \\
+    Leitfähigkeit $\kappa$ & \unit{\per\ohm\per\meter} & thermische Leitfähigkeit $\lambda$ & \unit{\W\per\m\per\K} \\ \bottomrule
+    \end{tabular}
+    \caption{Analogien von thermischen und elektrischen Größen}
+    \label{tab:electricalThermalAnalogy}
+    Quelle: In Anlehnung an \cite[S. ~226]{Griesinger2019}
+\end{table}
+
+
+\begin{equation}
+    x_1^2+x_2^2+x_3^2 = |\vec{x}|
+\end{equation}
+mit
+\begin{symboltable}
+    $\vec{x}$:  & x-Vektor\\
+    $x_1$:      & x-Komponente von $\vec{x}$\\
+    $x_2$:      & y-Komponente von $\vec{x}$\\
+    $x_2$:      & z-Komponente von $\vec{x}$\\
+\end{symboltable}
+Hier gehts weiter mit Text.

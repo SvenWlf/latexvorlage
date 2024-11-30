@@ -1,0 +1,52 @@
+\lstloadlanguages{Python,Java,C,C++,bash,HTML} %weitere Sprachen: http://texdoc.net/texmf-dist/doc/latex/listings/listings.pdf auf Seite 13
+\lstdefinestyle{Csharp} {language=[Sharp]C} %[] kann in listingdefinition nicht verwendet werden
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break, script, type},
+  keywordstyle=\color{blue}\bfseries,
+  ndkeywords={class, export, boolean, throw, implements, import, this},
+  ndkeywordstyle=\color{darkgray}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{purple}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  morestring=[b]',
+  %morestring=[b]"
+}
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\lstdefinelanguage{XML}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{black},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{cyan},
+  morekeywords={xmlns,version,type}% list your attributes here
+}
+
+\lstdefinelanguage{XAML}
+{
+  basicstyle=\ttfamily\footnotesize,
+  morestring=[b]",
+  %moredelim=[s][\color{blue}]{<}{>},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s]{<!--}{-->},
+  commentstyle=\color{VSgreencomments},
+  moredelim=[s][\color{blue}]{/>}{</},
+  stringstyle=\color{VSstringred},
+  identifierstyle=\color{blue},
+  keywordstyle=\color{VSclassGreen},
+  numbers=left,
+  tabsize=2,
+  frame=single,
+  rulecolor=\color{black},
+  breaklines=true,
+  captionpos=b,
+  morekeywords={xmlns, version, type, Algorithm, URI, Id, Target}% list your attributes here
+}
